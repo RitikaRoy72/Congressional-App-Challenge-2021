@@ -1,0 +1,296 @@
+"""
+    dataAk = data.iloc[2, 0:2]
+    textAk = font.render(str(dataAk), True, green, blue)
+    textRectAk = textAk.get_rect()
+    textRectAk.center = (732 , 20)
+
+    dataAr = data.iloc[3, 0:2]
+    textAr = font.render(str(dataAr), True, green, blue)
+    textRectAr = textAr.get_rect()
+    textRectAr.center = (732 , 30)
+
+    dataArk = data.iloc[4, 0:2]
+    textArk = font.render(str(dataArk), True, green, blue)
+    textRectArk = textArk.get_rect()
+    textRectArk.center = (732 , 40)
+
+    dataCal = data.iloc[5, 0:2]
+    textCal = font.render(str(dataCal), True, green, blue)
+    textRectCal = textCal.get_rect()
+    textRectCal.center = (732 , 50)
+
+    dataCol = data.iloc[6, 0:2]
+    textCol = font.render(str(dataCol), True, green, blue)
+    textRectCol = textCol.get_rect()
+    textRectCol.center = (732 , 60)
+
+    dataCon = data.iloc[7, 0:2]
+    textCon = font.render(str(dataCon), True, green, blue)
+    textRectCon = textCon.get_rect()
+    textRectCon.center = (732 , 70)
+
+    dataDel = data.iloc[8, 0:2]
+    textDel = font.render(str(dataDel), True, green, blue)
+    textRectDel = textDel.get_rect()
+    textRectDel.center = (732 , 80)
+
+    dataFlor = data.iloc[9, 0:2]
+    textFlor = font.render(str(dataFlor), True, green, blue)
+    textRectFlor = textFlor.get_rect()
+    textRectFlor.center = (732 , 90)
+
+    dataGeo = data.iloc[10, 0:2]
+    textGeo = font.render(str(dataGeo), True, green, blue)
+    textRectGeo = textGeo.get_rect()
+    textRectGeo.center = (732 , 100)
+
+    dataHaw = data.iloc[11, 0:2]
+    textHaw = font.render(str(dataHaw), True, green, blue)
+    textRectHaw = textHaw.get_rect()
+    textRectHaw.center = (732 , 110)
+
+    dataId = data.iloc[12, 0:2]
+    textId = font.render(str(dataId), True, green, blue)
+    textRectId = textId.get_rect()
+    textRectId.center = (732 , 120)
+
+    dataIll = data.iloc[13, 0:2]
+    textIll = font.render(str(dataIll), True, green, blue)
+    textRectIll = textIll.get_rect()
+    textRectIll.center = (732 , 130)
+
+    dataInd = data.iloc[14, 0:2]
+    textInd = font.render(str(dataInd), True, green, blue)
+    textRectInd = textInd.get_rect()
+    textRectInd.center = (732 , 140)
+
+    dataIo = data.iloc[15, 0:2]
+    textIo = font.render(str(dataIo), True, green, blue)
+    textRectIo = textIo.get_rect()
+    textRectIo.center = (732 , 150)
+
+    dataKan = data.iloc[16, 0:2]
+    textKan = font.render(str(dataKan), True, green, blue)
+    textRectKan = textKan.get_rect()
+    textRectKan.center = (732 , 160)
+
+    dataKen = data.iloc[17, 0:2]
+    textKen = font.render(str(dataKen), True, green, blue)
+    textRectKen = textKen.get_rect()
+    textRectKen.center = (732 , 180)
+
+    dataLou = data.iloc[18, 0:2]
+    textLou = font.render(str(dataLou), True, green, blue)
+    textRectLou = textLou.get_rect()
+    textRectLou.center = (732 , 190)
+
+    dataMai = data.iloc[19, 0:2]
+    textMai = font.render(str(dataMai), True, green, blue)
+    textRectMai = textMai.get_rect()
+    textRectMai.center = (732 , 200)
+
+    dataMar = data.iloc[20, 0:2]
+    textMar = font.render(str(dataMar), True, green, blue)
+    textRectMar = textMar.get_rect()
+    textRectMar.center = (732 , 210)
+
+    dataMass = data.iloc[21, 0:2]
+    textMass = font.render(str(dataMass), True, green, blue)
+    textRectMass = textMass.get_rect()
+    textRectMass.center = (732 , 220)
+
+    dataMich = data.iloc[22, 0:2]
+    textMich = font.render(str(dataMich), True, green, blue)
+    textRectMich = textMich.get_rect()
+    textRectMich.center = (732 , 230)
+
+    dataMin = data.iloc[23, 0:2]
+    textMin = font.render(str(dataMin), True, green, blue)
+    textRectMin = textMin.get_rect()
+    textRectMin.center = (732 , 240)
+
+    dataMiss = data.iloc[24, 0:2]
+    textMiss = font.render(str(dataMiss), True, green, blue)
+    textRectMiss = textMiss.get_rect()
+    textRectMiss.center = (732 , 250)
+
+    dataMisso = data.iloc[25, 0:2]
+    textMisso = font.render(str(dataMisso), True, green, blue)
+    textRectMisso = textMisso.get_rect()
+    textRectMisso.center = (732 , 260)
+
+    dataMon = data.iloc[26, 0:2]
+    textMon = font.render(str(dataMon), True, green, blue)
+    textRectMon = textMon.get_rect()
+    textRectMon.center = (732 , 270)
+
+    dataNeb = data.iloc[27, 0:2]
+    textNeb = font.render(str(dataNeb), True, green, blue)
+    textRectNeb = textNeb.get_rect()
+    textRectNeb.center = (732 , 280)
+
+    dataNev = data.iloc[28, 0:2]
+    textNev = font.render(str(dataNev), True, green, blue)
+    textRectNev = textNev.get_rect()
+    textRectNev.center = (732 , 290)
+
+    dataNewHam = data.iloc[29, 0:2]
+    textNewHam = font.render(str(dataNewHam), True, green, blue)
+    textRectNewHam = textNewHam.get_rect()
+    textRectNewHam.center = (732 , 300)
+
+    dataNewJer = data.iloc[30, 0:2]
+    textNewJer = font.render(str(dataNewJer), True, green, blue)
+    textRectNewJer = textNewJer.get_rect()
+    textRectNewJer.center = (732 , 310)
+
+    dataNewMex = data.iloc[31, 0:2]
+    textNewMex = font.render(str(dataNewMex), True, green, blue)
+    textRectNewMex = textNewMex.get_rect()
+    textRectNewMex.center = (732 , 320)
+
+    dataNewYork = data.iloc[32, 0:2]
+    textNewYork = font.render(str(dataNewYork), True, green, blue)
+    textRectNewYork = textNewYork.get_rect()
+    textRectNewYork.center = (732 , 330)
+
+    dataNorCar = data.iloc[33, 0:2]
+    textNorCar = font.render(str(dataNorCar), True, green, blue)
+    textRectNorCar = textNorCar.get_rect()
+    textRectNorCar.center = (732 , 340)
+
+    dataNorDak = data.iloc[34, 0:2]
+    textNorDak = font.render(str(dataNorDak), True, green, blue)
+    textRectNorDak = textNorDak.get_rect()
+    textRectNorDak.center = (732 , 350)
+
+    dataOh = data.iloc[35, 0:2]
+    textOh = font.render(str(dataOh), True, green, blue)
+    textRectOh = textOh.get_rect()
+    textRectOh.center = (732 , 360)
+
+    dataOk = data.iloc[36, 0:2]
+    textOk = font.render(str(dataOk), True, green, blue)
+    textRectOk = textOk.get_rect()
+    textRectOk.center = (732 , 20)
+
+    dataOr = data.iloc[37, 0:2]
+    textOr = font.render(str(dataOr), True, green, blue)
+    textRectOr = textOr.get_rect()
+    textRectOr.center = (732 , 370)
+
+    dataPenn = data.iloc[38, 0:2]
+    textPenn = font.render(str(dataPenn), True, green, blue)
+    textRectPenn = textPenn.get_rect()
+    textRectPenn.center = (732 , 380)
+
+    dataRI = data.iloc[39, 0:2]
+    textRI = font.render(str(dataRI), True, green, blue)
+    textRectRI = textRI.get_rect()
+    textRectRI.center = (732 , 390)
+
+    dataSC = data.iloc[40, 0:2]
+    textSC = font.render(str(dataSC), True, green, blue)
+    textRectSC = textSC.get_rect()
+    textRectSC.center = (732 , 400)
+
+    dataSD = data.iloc[41, 0:2]
+    textSD = font.render(str(dataSD), True, green, blue)
+    textRectSD = textSD.get_rect()
+    textRectSD.center = (732 , 410)
+
+    dataTen = data.iloc[42, 0:2]
+    textTen = font.render(str(dataTen), True, green, blue)
+    textRectTen = textTen.get_rect()
+    textRectTen.center = (732 , 420)
+
+    dataTex = data.iloc[43, 0:2]
+    textTex = font.render(str(dataTex), True, green, blue)
+    textRectTex = textTex.get_rect()
+    textRectTex.center = (732 , 430)
+
+    dataUt = data.iloc[44, 0:2]
+    textUt = font.render(str(dataUt), True, green, blue)
+    textRectUt = textUt.get_rect()
+    textRectUt.center = (732 , 440)
+
+    dataVer = data.iloc[45, 0:2]
+    textVer = font.render(str(dataVer), True, green, blue)
+    textRectVer = textVer.get_rect()
+    textRectVer.center = (732 , 450)
+
+    dataVir = data.iloc[46, 0:2]
+    textVir = font.render(str(dataVir), True, green, blue)
+    textRectVir = textVir.get_rect()
+    textRectVir.center = (732 , 460)
+
+    dataWash = data.iloc[47, 0:2]
+    textWash = font.render(str(dataWash), True, green, blue)
+    textRectWash = textWash.get_rect()
+    textRectWash.center = (732 , 470)
+
+    dataWes = data.iloc[48, 0:2]
+    textWes = font.render(str(dataWes), True, green, blue)
+    textRectWes = textWes.get_rect()
+    textRectWes.center = (732 , 480)
+
+    dataWis = data.iloc[49, 0:2]
+    textWis = font.render(str(dataWis), True, green, blue)
+    textRectWis = textWis.get_rect()
+    textRectWis.center = (732 , 490)
+
+    dataWy = data.iloc[50, 0:2]
+    textWy = font.render(str(dataWy), True, green, blue)
+    textRectWy = textWy.get_rect()
+    textRectWy.center = (732 , 500)
+
+    """
+
+    """
+      screen.blit(textAr, textRectAr)
+      screen.blit(textCal, textRectCal)
+      screen.blit(textCol, textRectCol)
+      screen.blit(textCon, textRectCon)
+      screen.blit(textDel, textRectDel)
+      screen.blit(textFlor, textRectFlor)
+      screen.blit(textGeo, textRectGeo)
+      screen.blit(textHaw, textRectHaw)
+      screen.blit(textId, textRectId)
+      screen.blit(textIll, textRectIll)
+      screen.blit(textInd, textRectInd)
+      screen.blit(textIo, textRectIo)
+      screen.blit(textKan, textRectKan)
+      screen.blit(textKen, textRectKen)
+      screen.blit(textLou, textRectLou)
+      screen.blit(textMai, textRectMai)
+      screen.blit(textMar, textRectMar)
+      screen.blit(textMass, textRectMass)
+      screen.blit(textMich, textRectMich)
+      screen.blit(textMin, textRectMin)
+      screen.blit(textMiss, textRectMiss)
+      screen.blit(textMisso, textRectMisso)
+      screen.blit(textMon, textRectMon)
+      screen.blit(textNeb, textRectNeb)
+      screen.blit(textNev, textRectNev)
+      screen.blit(textNewHam, textRectNewHam)
+      screen.blit(textNewMex, textRectNewMex)
+      screen.blit(textNewYork, textRectNewYork)
+      screen.blit(textNorCar, textRectNorCar)
+      screen.blit(textNorDak, textRectNorDak)
+      screen.blit(textOh, textRectOh)
+      screen.blit(textOk, textRectOk)
+      screen.blit(textOr, textRectOr)
+      screen.blit(textPenn, textRectPenn)
+      screen.blit(textRI, textRectRI)
+      screen.blit(textSC, textRectSC)
+      screen.blit(textSD, textRectSD)
+      screen.blit(textTen, textRectTen)
+      screen.blit(textTex, textRectTex)
+      screen.blit(textUt, textRectUt)
+      screen.blit(textVer, textRectVer)
+      screen.blit(textVir, textRectVir)
+      screen.blit(textWash, textRectWash)
+      screen.blit(textWes, textRectWes)
+      screen.blit(textWis, textRectWis)
+      screen.blit(textWy, textRectWy)
+      """
